@@ -57,10 +57,15 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
   - git init 
   - git add .
   - git commit -m "Aula 01" & git branch -M aula01 & git remote add origin git@github.com:mazera3/Rocket.Q.git & git push -u origin aula01
-- Para atualizar: git add . & git commit -m "XXX" & git branch -M XXX & git remote add origin git@github.com:mazera3/Rocket.Q.git & git push -u origin XXX
+- Para atualizar: git add . & git commit -m "XXX" & git branch -M XXX & git push -u origin XXX
 
 ## 2ª Aula
 
-- Crial ball: <pre> <div class="ball top"></div> </pre>
+- Crial ball: [CSS-Clip](https://bennettfeely.com/clippy/)
+<pre> <div class="ball top"></div> </pre>
 - Nova página: creat-pass.html (copia de home.html)
 - Novas páginas: room.html e room.css
+- git add .
+- git commit -m "Aula 02"
+- git branch -M aula02
+- git push -u origin aula02
