@@ -54,6 +54,13 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
   - Criar pasta assets
   - Baixar os SVG da página principal [baixar](https://www.figma.com/community/file/1009821158959690135/Roquet.q)
 - Criar repositório Rocket.Q no github.
-  - git init & git add . & git commit -m "Aula 01" & git branch -M aula01 & git remote add origin git@github.com:mazera3/Rocket.Q.git & git push -u origin aula01
+  - git init 
+  - git add .
+  - git commit -m "Aula 01" & git branch -M aula01 & git remote add origin git@github.com:mazera3/Rocket.Q.git & git push -u origin aula01
 - Para atualizar: git add . & git commit -m "XXX" & git branch -M XXX & git remote add origin git@github.com:mazera3/Rocket.Q.git & git push -u origin XXX
 
+## 2ª Aula
+
+- Crial ball: <pre> <div class="ball top"></div> </pre>
+- Nova página: creat-pass.html (copia de home.html)
+- Novas páginas: room.html e room.css

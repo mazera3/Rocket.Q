@@ -10,13 +10,14 @@
 
 header{
     grid-area: header;
-    background-color: #ffcaca;
+    background-color: cyan;
 }
 
 #bg{
     grid-area: left;
     background: url('../assets/home-bg-img.svg') no-repeat top/contain;
-    background-color: #99caf0;
+    background-position-x: -6rem;
+    /* background-color: #99caf0; */
 }
 
 main{
@@ -24,8 +25,8 @@ main{
 
     display: flex;
     align-items: center;
-
-    background-color: #accaca;
+    /* margin-top: -12rem; */
+    /* background-color: #accaca; */
 }
 
 main .container{    
@@ -79,7 +80,7 @@ input, button, .button{
     height: 21.2rem;
     background: var(--blue);
     clip-path: circle();
-    opacity: 0.1;
+    opacity: 0.3;
 
     position: fixed;
 }
@@ -87,7 +88,7 @@ input, button, .button{
 .ball.top{
     top: -46rem;
     width: 63.3rem;
-    right: -35rem;
+    right: -32rem;
     height: 63.3rem;
 }
 
