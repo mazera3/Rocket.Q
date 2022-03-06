@@ -71,5 +71,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 - git push -u origin aula02
 
 <pre>
-  <div class="ball top"></div>
+  < div class="ball top" >< /div >
 </pre>
