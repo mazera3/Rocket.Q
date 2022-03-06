@@ -63,13 +63,12 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 ## 2ª Aula
 
 - Crial ball: [CSS-Clip](https://bennettfeely.com/clippy/)
+<pre>
+  < div class="ball top" >< /div >
+</pre>
 - Nova página: creat-pass.html (copia de home.html)
 - Novas páginas: room.html e room.css
 - git add .
 - git commit -m "Aula 02"
 - git branch -M aula02
 - git push -u origin aula02
-
-<pre>
-  < div class="ball top" >< /div >
-</pre>
