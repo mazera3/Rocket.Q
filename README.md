@@ -72,3 +72,18 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 - git commit -m "Aula 02"
 - git branch -M aula02
 - git push -u origin aula02
+
+## 3ª Aula
+- Criar modal.css
+
+## Tecnologias
+- Gerar texto aleatório: [Lorem Ipsum](https://www.lipsum.com/)
+- Converter hexadecimal em rgb: [peko-step](https://www.peko-step.com/pt/tool/tfcolor.html)
+
+## Repositório
+- git add .
+- git commit -m "Aula 03"
+- git branch -M aula03
+- git push -u origin aula03
+
+---
