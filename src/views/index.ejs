@@ -2,14 +2,14 @@
 <html lang="pt-br">
 
 <head>
-    <title>Rocket.Q - Criar sala</title>
+    <title>Criar sala - Rocket.Q</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- View Port -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/home.css">
     <!-- FONTS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,25 +19,18 @@
 
 <body>
     <div id="home" class="content">
-        <header><img src="./assets/logo.svg" alt="Rocket.Q logo"></header>
+        <header>
+            <a href="/">
+                <img src="/images/logo.svg" alt="Rocket.Q logo">
+            </a>
+        </header>
         <div id="bg">
             <div class="ball top"></div>
             <div class="ball bottom"></div>
         </div>
         <main>
             <div class="container">
-                <section>
-                    <h2>Crie sua própia sala</h2>
-                    <form action="">
-                        <label class="sr-only" for="room-pass">Insira uma senha</label>
-                        <input type="password" id="room-pass" placeholder="Insira uma senha">
-                        <button>
-                            <img src="./assets/btn/users-white.svg" alt="Entrar na sala">
-                            Criar sala
-                        </button>
-                    </form>
-                    <a href="room.html">Ver sala</a>
-                </section>
+                <%- include(`parts/${page}`) %>
             </div>
         </main>
     </div>

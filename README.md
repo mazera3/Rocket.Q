@@ -87,3 +87,40 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 - git push -u origin aula03
 
 ---
+
+## 4ª Aula
+- mover os arquivos para uma pasta htmls
+- Iniciar um projeto nodejs
+
+# Comandos iniciais nodejs
+- Verificar a versão nodejs: node -v -> v16.13.2
+- Iniciar o projeto com npm:  npm init -y
+- Instala njs [Embedded JavaScript templates](https://www.npmjs.com/package/ejs) e express: npm i ejs express
+- Fechar o Live Server do vscode
+- Criar pasta src
+  - Criar aruivo src/server.js
+- Instalar env: npm install dotenv e criar arquivo .env
+  - Criar variavel PORT e usar em `process.env.PORT`
+
+  ## Rodando o porojeto
+  - Criar script: "start": "node src/server.js" em package.json
+  - Rodar: npm start (ou npm rum start)
+  
+  # Rotas
+  - Criar pasta/arquivo: views/index.ejs
+  - Criar arquivo src/route.js
+  - Criar pasta public e mover a pasta /styles e /assets para dentro, renomear /assets para /images.
+  - Instalar nodemon: npm i nodemon -D e alterar script: "start": "nodemon src/server.js"
+  - Iniciar: npm start ou node .
+  - mover arquivos .html para a pasta /src/views
+
+  # scripts
+  - Criar pasta/arquivo public/scripts/modal.js e main.js
+  - Criar rotas no script
+  - Criar src/controllers/QuestionController.js e RoomController.js
+  - Instalar sqlite e sqlite3: npm i sqlite sqlit3
+  - Criar pasta src/db e db/config.js db/init.js
+  - Template string: `xxx`
+  - Criar script initdb e rodar: `npm run initdb`
+  - Criar função de números aleatórios:
+    - Math.floor(Math.random() * 10) --> Gera nº aleatórios de 0 a 9

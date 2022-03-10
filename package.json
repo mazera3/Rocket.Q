@@ -1,0 +1,37 @@
+{
+  "name": "rocket.q",
+  "version": "1.0.0",
+  "description": "O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "initdb": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazera3/Rocket.Q.git"
+  },
+  "keywords": [
+    "nodejs",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Édio Mazera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazera3/Rocket.Q/issues"
+  },
+  "homepage": "https://github.com/mazera3/Rocket.Q#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "env": "^0.0.2",
+    "express": "^4.17.3",
+    "sqlite": "^4.0.25",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
