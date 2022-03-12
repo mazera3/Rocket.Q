@@ -124,3 +124,43 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
   - Criar script initdb e rodar: `npm run initdb`
   - Criar função de números aleatórios:
     - Math.floor(Math.random() * 10) --> Gera nº aleatórios de 0 a 9
+
+## 5ª Aula
+- Terminar RoomController.js e room.ejs
+- Criar src/views/passincorrect.ejs
+
+## Repositório
+- git add .
+- git commit -m "Aula 05"
+- git branch -M aula05
+- git push -u origin aula05
+
+<pre>
+public/
+┣ images/
+┃ ┣ btn/
+┃ ┃ ┣ check.svg
+┃ ┃ ┣ copy.svg
+┃ ┃ ┣ enter-room.png
+┃ ┃ ┣ enter-room.svg
+┃ ┃ ┣ lock.svg
+┃ ┃ ┣ trash.svg
+┃ ┃ ┣ user.svg
+┃ ┃ ┣ users-blue.svg
+┃ ┃ ┗ users-white.svg
+┃ ┣ avatar.svg
+┃ ┣ favincon.ico
+┃ ┣ favincon.png
+┃ ┣ home-bg-img.svg
+┃ ┣ logo.svg
+┃ ┗ noquestions.svg
+┣ scripts/
+┃ ┣ main.js
+┃ ┗ modal.js
+┣ styles/
+┃ ┣ global.css
+┃ ┣ home.css
+┃ ┣ modal.css
+┃ ┗ room.css
+┗ favicon.ico
+</pre>
